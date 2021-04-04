@@ -1,0 +1,29 @@
+{
+    "type": "library",
+    "license": "properietary",
+    "name": "oop/php21",
+    "description": "latihan",
+    "authors": [
+        {
+            "name": "Egi",
+            "email": "egigusniawanpradana@gmail.com",
+            "homepage": "https://github.com/egiie"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "oop\\pph21\\": "src/"
+        }
+    }
+}
